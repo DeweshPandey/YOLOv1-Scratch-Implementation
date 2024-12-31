@@ -40,20 +40,6 @@ kaggle datasets download -d aladdinpersson/pascalvoc-yolo
 unzip pascalvoc-yolo.zip
 ```
 
-## 🧑‍💻 How to Run
-1. Train the model:
-```python
-python train.py
-```
-2. Evaluate the model:
-```python
-python evaluate.py
-```
-3. Visualize predictions:
-```python
-python visualize.py
-```
-
 ## 📊 Model Architecture
 - **Input Image:** Divided into grid cells.
 - **Feature Extraction:** Through Convolutional Neural Networks (CNNs).
